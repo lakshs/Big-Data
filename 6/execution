@@ -1,0 +1,7 @@
+hadoop jar proj.jar project/PercentOnApplications /niit/h1b/0* /niit/projout6
+
+pig -x local h1b6.pig 
+
+hive -f h1b6.sql 
+
+

@@ -1,0 +1,3 @@
+hadoop jar proj.jar project/Question3_TreeMap /niit/h1b/0* /niit/projout3
+
+hive -f h1b3.sql

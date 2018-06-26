@@ -1,0 +1,3 @@
+hadoop jar proj.jar project/Top10JobPositions /niit/h1b/0* /niit/projout5a
+
+hadoop jar proj.jar project/Top10CertifiedJobPositions /niit/h1b/0* /niit/projout5b

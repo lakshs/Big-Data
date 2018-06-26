@@ -1,0 +1,9 @@
+hadoop jar proj.jar project/WorksiteUSDataEngineerJob /niit/h1b/0* /niit/out2a2 2011
+hadoop jar proj.jar project/WorksiteUSDataEngineerJob /niit/h1b/0* /niit/out2a2 2012
+hadoop jar proj.jar project/WorksiteUSDataEngineerJob /niit/h1b/0* /niit/out2a2 2013
+hadoop jar proj.jar project/WorksiteUSDataEngineerJob /niit/h1b/0* /niit/out2a2 2014
+hadoop jar proj.jar project/WorksiteUSDataEngineerJob /niit/h1b/0* /niit/out2a2 2015
+hadoop jar proj.jar project/WorksiteUSDataEngineerJob /niit/h1b/0* /niit/out2a2 2016
+hadoop jar proj.jar project/WorksiteUSDataEngineerJob /niit/h1b/0* /niit/out2a2 ALL
+
+pig -x local /home/hduser/2b.pig

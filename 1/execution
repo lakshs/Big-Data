@@ -1,0 +1,4 @@
+hadoop jar proj.jar project/DataEngineerJob /niit/h1b/0* /niit/projout1
+
+pig -x local /home/hduser/1b.pig
+

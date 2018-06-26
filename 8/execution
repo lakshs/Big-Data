@@ -1,0 +1,5 @@
+hadoop jar proj.jar project/Q8A_AvgPrWageForEachJobForEachYearFullTime /niit/h1b/0* /niit/out8a ALL
+
+hive -f h1b8.sql
+
+pig -x local h1b8.pig
